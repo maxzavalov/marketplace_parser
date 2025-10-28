@@ -1,0 +1,94 @@
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Файлы пакетирования и дистрибуции
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Отчёты о тестировании и покрытии кода
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Файлы редакторов и IDE
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Прочие инструменты и фреймворки
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Системные файлы
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
