@@ -4,6 +4,7 @@ import time
 import threading
 from config import BOT_TOKEN
 from parsers import WildberriesParser, OzonParser
+from models import TrackedProduct
 
 bot = telebot.TeleBot(BOT_TOKEN)
 # Словарь для хранения состояний пользователей
