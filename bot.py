@@ -3,6 +3,7 @@ from telebot import types
 import time
 import threading
 from config import BOT_TOKEN
+from parsers import WildberriesParser, OzonParser
 
 bot = telebot.TeleBot(BOT_TOKEN)
 # Словарь для хранения состояний пользователей
